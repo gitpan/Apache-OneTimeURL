@@ -3,8 +3,8 @@ MANIFEST
 Build.PL
 README
 test.pl
-HouseURL.pm
 lib/Apache/OneTimeURL.pm
 META.yml
 Makefile.PL
 Build.PL
+META.json

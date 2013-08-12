@@ -1,0 +1,46 @@
+{
+   "abstract" : "One-time use URLs for sensitive data",
+   "author" : [
+      "Simon Cozens, C<simon@kasei.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.131560",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Apache-OneTimeURL",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Apache" : "0",
+            "DB_File" : "0",
+            "Digest::MD5" : "0",
+            "MLDBM" : "0",
+            "Mail::Send" : "0",
+            "perl" : "v5.6.0"
+         }
+      }
+   },
+   "provides" : {
+      "Apache::OneTimeURL" : {
+         "file" : "lib/Apache/OneTimeURL.pm",
+         "version" : "1.30"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "1.30"
+}
