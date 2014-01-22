@@ -9,7 +9,7 @@ use Mail::Send;
 use Apache;
 use Apache::Constants;
 
-our $VERSION = "1.31";
+our $VERSION = "1.32";
 
 sub handler {
     my ($class,$r) = @_;
@@ -158,6 +158,11 @@ and 1.2. releases of this module.
 
 Simon Cozens, C<simon@kasei.com>
 
-Copyright Simon Cozens, and released under the same terms as Perl itself.
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2003 Simon Cozens.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

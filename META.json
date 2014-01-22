@@ -1,10 +1,10 @@
 {
-   "abstract" : "One-time use URLs for sensitive data",
+   "abstract" : "unknown",
    "author" : [
-      "Simon Cozens, C<simon@kasei.com>"
+      "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132510",
+   "generated_by" : "ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -13,10 +13,16 @@
       "version" : "2"
    },
    "name" : "Apache-OneTimeURL",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
    "prereqs" : {
-      "configure" : {
+      "build" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
@@ -26,24 +32,22 @@
             "Digest::MD5" : "0",
             "MLDBM" : "0",
             "Mail::Send" : "0",
-            "perl" : "v5.6.0"
+            "perl" : "5.006"
          }
-      }
-   },
-   "provides" : {
-      "Apache::OneTimeURL" : {
-         "file" : "lib/Apache/OneTimeURL.pm",
-         "version" : "1.31"
+      },
+      "test" : {
+         "requires" : {
+            "Test" : "0"
+         }
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
       "repository" : {
-         "url" : "https://github.com/neilbowers/Apache-OneTimeURL"
+         "type" : "git",
+         "url" : "git://github.com/neilbowers/Apache-OneTimeURL.git",
+         "web" : "https://github.com/neilbowers/Apache-OneTimeURL"
       }
    },
-   "version" : "1.31"
+   "version" : "1.32"
 }

@@ -1,29 +1,28 @@
 ---
-abstract: 'One-time use URLs for sensitive data'
+abstract: unknown
 author:
-  - 'Simon Cozens, C<simon@kasei.com>'
-build_requires: {}
-configure_requires:
-  Module::Build: 0.40
+  - unknown
+build_requires:
+  ExtUtils::MakeMaker: 0
+  Test: 0
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132510'
+generated_by: 'ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Apache-OneTimeURL
-provides:
-  Apache::OneTimeURL:
-    file: lib/Apache/OneTimeURL.pm
-    version: 1.31
+no_index:
+  directory:
+    - t
+    - inc
 requires:
   Apache: 0
   DB_File: 0
   Digest::MD5: 0
   MLDBM: 0
   Mail::Send: 0
-  perl: v5.6.0
+  perl: 5.006
 resources:
-  license: http://dev.perl.org/licenses/
-  repository: https://github.com/neilbowers/Apache-OneTimeURL
-version: 1.31
+  repository: git://github.com/neilbowers/Apache-OneTimeURL.git
+version: 1.32
